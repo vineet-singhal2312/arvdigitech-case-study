@@ -1,0 +1,17 @@
+.product-super-card {
+  min-height: 200px;
+  width: 65%;
+  background-color: #262626;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem 2rem;
+}
+@media only screen and (max-width: 500px) {
+  .product-super-card {
+    width: 90%;
+    padding: 0.5rem 1rem;
+  }
+}

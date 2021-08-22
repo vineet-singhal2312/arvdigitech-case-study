@@ -1,0 +1,61 @@
+.pie-chart-card {
+  width: 90%;
+  height: 550px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+#slider {
+  color: #cba14d;
+  padding: 0rem;
+}
+#input1 {
+  padding-left: 1.5rem;
+  color: #ffffff;
+}
+#input1:focus {
+  outline: none;
+}
+#input2 {
+  padding-left: 1.5rem;
+  color: #ffffff;
+}
+#input2:focus {
+  outline: none;
+}
+#input3 {
+  padding-left: 1.5rem;
+  color: #ffffff;
+}
+#input3:focus {
+  outline: none;
+}
+#input4 {
+  padding-left: 1.5rem;
+  color: #ffffff;
+}
+#input4:focus {
+  outline: none;
+}
+@media only screen and (max-width: 500px) {
+  .pie-chart-card {
+    width: 100%;
+    margin: 8rem 0rem;
+  }
+  #input1 {
+    padding-left: 0.5rem;
+  }
+  #input2 {
+    padding-left: 0.5rem;
+  }
+  #input3 {
+    padding-left: 0.5rem;
+  }
+  #input4 {
+    padding-left: 0.5rem;
+  }
+}

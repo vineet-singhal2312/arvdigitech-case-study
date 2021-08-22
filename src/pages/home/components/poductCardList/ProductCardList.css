@@ -1,0 +1,10 @@
+.product-list {
+  min-height: 200px;
+  width: 90%;
+  background-color: #262626;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
